@@ -1,0 +1,45 @@
+.modal{
+    position: absolute;
+    top: 50px;
+    display: flex;
+    align-self: center;
+    background-color: rgb(54, 54, 54);
+    width:100%;
+    color: white;
+    height: 60%;  
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;  
+}
+
+.modal-form {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 70%;
+    border-radius: 20px;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-control{
+    height: 40px;
+    margin-bottom: 5px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+
+.btn{
+    background-color: blue;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+}
+
+.modal-close{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
