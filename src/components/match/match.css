@@ -14,6 +14,9 @@
 
 .club-name-logo{
     width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .club{
@@ -29,3 +32,10 @@
     width: 100%;
     height: 50px;
 }
+
+
+img{
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+  }

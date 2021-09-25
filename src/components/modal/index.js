@@ -13,8 +13,8 @@ export const Modal = ({ onPress }) => {
     return (
         <div className="modal" >
             <div className="modal-form"> 
-                <input value={email} onChange={setEmail} className="form-control" placeholder="Email" type="email"/>
-                <input value={password} onChange={setPassword} className="form-control" placeholder="Password" type="text"/>
+                <input value={email} onChange={(e) => setEmail(e.target.value)} className="form-control" placeholder="Email" type="email"/>
+                <input value={password} onChange={(e) => setPassword(e.target.value)} className="form-control" placeholder="Password" type="text"/>
                 <input className="form-control" placeholder="Confirm Password" type="text"/>
                 <input className="form-control btn" type="submit" onClick={onSubmit}/>
             </div>

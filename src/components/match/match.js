@@ -1,12 +1,16 @@
 import React from 'react';
 import "./match.css";
+import club1 from "../../imgs/club1.png"
+import club2 from "../../imgs/club2.png"
 
-const MatchComponent = () => {
+const MatchComponent = ({ img }) => {
     return (
         <div className="club">
             <div className="club-name-logo">
-                <img src="../../imgs/club1.png" alt="club1_photo" />
-                club1
+                <img src={img} alt="club1_photo" />
+                <div>
+                    club1
+                </div>
             </div>
             <div className="score">
                 0
@@ -22,8 +26,8 @@ export const Match = () => {
                 12:30
             </span>
             <div className="group-club">
-                <MatchComponent />
-                <MatchComponent />
+                <MatchComponent img={club1}/>
+                <MatchComponent img={club2}/>
             </div>
             <div className="fav" onClick={() => alert("star")}>
                 Star
