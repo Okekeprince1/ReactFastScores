@@ -2,30 +2,51 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    align-items: center;
 }
 
 
 
 .authButtons{
-    font-size: large;
-    background-color: rgb(27, 27, 251);
-    padding: 10px 35px;
+    font-size: medium;
+    padding: 1rem 1rem;
     color: white;
-    border-radius: 20px;
+    border-radius: 0rem;
 }
 
 .authButtons:hover{
     background-color: rgb(22, 22, 88);
 }
 
+.options{
+    margin: 1rem;
+}
+
+.options:hover{
+    cursor: pointer;
+}
 
 .navbarText{
-    font-size: 30px;
+    font-size: 1.2rem;
 }
 
 .navbarText::before{
     content: "TM";
     display: block;
     float: right;
+    color: rgb(255, 156, 8);
     font-size: x-small;
 }
+
+@media screen and (max-width: 900px) {
+    .moreMenu{
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    .navbarText{
+        float: left;
+    }
+   
+  }

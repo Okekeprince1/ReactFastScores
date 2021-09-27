@@ -19,8 +19,10 @@ const MatchComponent = ({ img }) => {
     )
 }
 
-export const Match = () => {
+export const Match = (props) => {
+    // const { awayTeam, homeTeam, utcDate, score} = props.match;
     return (
+        
         <div className="match" onClick={() => alert("you clicked a match")}>
             <span className="time">
                 12:30

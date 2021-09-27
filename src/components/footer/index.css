@@ -1,0 +1,32 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    align-items: flex-end;
+    justify-content: space-around;
+    font: 1em sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 15px 30px 15px;
+    background-color: rgb(59, 59, 59);
+}
+
+.foot:hover{
+    cursor: pointer;
+}
+
+.activeMenu{
+    color: rgb(255, 123, 0);
+}
+
+body {
+    margin: 0;
+}
+
+@media screen and (min-width: 900px) {
+    .footer{
+      display: none;
+    }
+   
+  }

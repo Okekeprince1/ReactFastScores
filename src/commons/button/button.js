@@ -10,10 +10,6 @@ export const Button = ({ text }) => {
         setCurrentMenu(title)
     }
 
-    React.useEffect(() => (
-        console.log(currentMenu, text)
-    ), [currentMenu]);
-
     return (
         <span onClick={() => changeMenu(text)} className={`authButtons ${ currentMenu === text ? "active" : ""}`}>
             {text}

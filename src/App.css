@@ -1,5 +1,40 @@
 .app{
-  margin: 50px;
+  padding: 50px;
   font: 1em sans-serif;
+  background-color: black;
+  color: white;
   position: relative;
+}
+
+body {
+  background-color: black;
+}
+
+.sideScore{
+  margin: 50px 0 50px 50px;
+  width: 30%;
+  height: 60vh;
+  background-color: green;
+  display: flex;
+  justify-content : center;
+  float: right;
+}
+
+@media screen and (max-width: 900px) {
+  .sideScore{
+    display: none;
+  }
+ 
+}
+
+@media screen and (min-width: 900px) {
+  .app{
+    margin: 150px
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .app{
+    margin: 120px;
+  }
 }
