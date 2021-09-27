@@ -16,7 +16,7 @@ export const Navbar = ({ onPress }) => {
                 </span>
 
                 <div className="navbarText">
-                    LiveScores
+                    FastScores
                 </div>
                 <span className="moreMenu">
                     { 

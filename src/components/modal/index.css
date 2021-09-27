@@ -1,12 +1,12 @@
 .modal{
-    position: absolute;
-    top: 50px;
+    position: fixed;
+    top: 10%;
+    left: 10%;
     display: flex;
-    align-self: center;
     background-color: rgb(54, 54, 54);
-    width:100%;
+    width:80%;
     color: white;
-    height: 60%;  
+    height: 80%; 
     border-radius: 20px;
     align-items: center;
     justify-content: center;  
@@ -17,6 +17,7 @@
     background-color: white;
     flex-direction: column;
     width: 70%;
+    max-width: 60%;
     border-radius: 20px;
     height: 70%;
     align-items: center;
@@ -25,14 +26,14 @@
 
 .form-control{
     height: 40px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     width: 80%;
     border-radius: 5px;
 }
 
 
 .btn{
-    background-color: blue;
+    background-color: rgba(220, 106, 0, 0.85);
     font-size: 13px;
     color: white;
     font-weight: bold;
@@ -40,6 +41,7 @@
 
 .modal-close{
     position: absolute;
+    font-size: 1.6rem;
     top: 20px;
     right: 30px;
 }

@@ -96,9 +96,10 @@ export const App = () => {
 
                     </div>
 
-                    {isModalOpen && <Modal onPress={closeModal} />}
+                    
 
                 </div>
+                {isModalOpen && <Modal onPress={closeModal} />}
                 <Footer />
             </>
         </MenuContext.Provider>

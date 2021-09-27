@@ -2,7 +2,12 @@
     font-size: small;
     background-color: rgb(52, 52, 52);
     color: rgb(186, 183, 183);
-    border-radius: 20px;
+    border-radius: 15px;
+    height: 0.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin-right: 5px;
 }
 

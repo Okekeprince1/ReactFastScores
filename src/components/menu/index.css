@@ -2,6 +2,9 @@
     padding-top: 30px;
     padding-bottom: 30px;
     overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    /* margin-bottom: 20px; */
     scroll-behavior: smooth;
     scrollbar-width: none;
 }
@@ -9,3 +12,10 @@
 .menu::-webkit-scrollbar{
     display: none;
 }
+
+@media screen and (max-width: 900px) {
+    .menu{
+      justify-content: space-between;
+    }
+   
+  }
