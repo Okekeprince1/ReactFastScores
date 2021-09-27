@@ -15,7 +15,6 @@ export const Modal = ({ onPress }) => {
             <div className="modal-form"> 
                 <input value={email} onChange={(e) => setEmail(e.target.value)} className="form-control" placeholder="Email" type="email"/>
                 <input value={password} onChange={(e) => setPassword(e.target.value)} className="form-control" placeholder="Password" type="text"/>
-                <input className="form-control" placeholder="Confirm Password" type="text"/>
                 <input className="form-control btn" type="submit" onClick={onSubmit}/>
             </div>
 

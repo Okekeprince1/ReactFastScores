@@ -26,7 +26,7 @@ export const Navbar = ({ onPress }) => {
                     }
                 </span>
 
-                <span className="authButtons">
+                <span className="authButtons" onClick={onPress}>
                     SignUp
                 </span>
         </div>
